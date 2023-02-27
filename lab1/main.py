@@ -2,16 +2,25 @@
 
 import sys
 
+def change_letters(param):
+    res = ""
+    for l in param:
+        if l.upper() == True:
+            res = res + l.lower()
+        else
+            res = res + l.upper()
+    return res
+
 def my_printf(format_string,param):
     #print(format_string)
     shouldDo=True
     for idx in range(0,len(format_string)):
         if shouldDo:
             if format_string[idx] == '#' and format_string[idx+1] == 'k':
-                print(param,end="")
+                print(change_letters(param), end="")
                 shouldDo=False
             else:
-                print(format_string[idx],end="")
+                print(format_string[idx], end="")
         else:
             shouldDo=True
     print("")
