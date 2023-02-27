@@ -7,7 +7,7 @@ def change_letters(param):
     for l in param:
         if l.upper() == True:
             res = res + l.lower()
-        else
+        else:
             res = res + l.upper()
     return res
 
