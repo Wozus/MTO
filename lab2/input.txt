@@ -6,3 +6,7 @@ TEST3: #.3k -short string
 Confirm
 TEST4: #.150k - long string
 ABCDEFGH
+TEST5: #.11k - full string range
+abcdefhglko
+TEST6: #.-5k - negative number
+HELLO

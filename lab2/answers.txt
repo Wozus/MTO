@@ -2,3 +2,5 @@ sadasdasd tEsT1 asdasd
 Ala ma kota
 TEST3: cON -short string
 TEST4: abcdefgh - long string
+TEST5: ABCDEFHGLKO - full string range
+TEST6: #.-5k - negative number
