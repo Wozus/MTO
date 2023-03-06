@@ -16,7 +16,11 @@ def my_printf(format_string, param):
         replacement = format_string[match.start():match.end()]
         max_chars = len(param)
         if match.group(1):
-            max_chars = int(replacement[2:-1])
+            if replacement[2:-1].isnumeric():
+                max_chars = int(replacement[2:-1])
+            else:
+                print(format_string)
+                return
         if max_chars < 0:
             print(format_string, end="")
         else:

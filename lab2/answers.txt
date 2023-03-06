@@ -6,3 +6,5 @@ TEST5: ABCDEFHGLKO - full string range
 TEST6: #.-5k - negative number
 TEST7: tESTING - without number
 TEST8: bOOM - normal
+TEST9: hUBERTkkkkkk - test syntax
+TEST10: #.k - no number

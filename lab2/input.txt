@@ -14,3 +14,7 @@ TEST7: #k - without number
 Testing
 TEST8: #.4k - normal
 Boom
+TEST9: #.13kkkkkkk - test syntax
+Hubert
+TEST10: #.k - no number
+mONDAY
