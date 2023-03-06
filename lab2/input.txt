@@ -2,3 +2,7 @@ sadasdasd #.11k asdasd
 TeSt1
 Ala #k kota
 MA
+TEST3: #.3k -short string
+Confirm
+TEST4: #.150k - long string
+ABCDEFGH

@@ -1,2 +1,4 @@
 sadasdasd tEsT1 asdasd
 Ala ma kota
+TEST3: cON -short string
+TEST4: abcdefgh - long string
