@@ -4,3 +4,5 @@ TEST3: cON -short string
 TEST4: abcdefgh - long string
 TEST5: ABCDEFHGLKO - full string range
 TEST6: #.-5k - negative number
+TEST7: tESTING - without number
+TEST8: bOOM - normal

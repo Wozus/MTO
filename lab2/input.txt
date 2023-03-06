@@ -10,3 +10,7 @@ TEST5: #.11k - full string range
 abcdefhglko
 TEST6: #.-5k - negative number
 HELLO
+TEST7: #k - without number
+Testing
+TEST8: #.4k - normal
+Boom
