@@ -34,3 +34,5 @@ TEST9: #.13kkkkkkk - test syntax
 Hubert
 TEST10: #.k - no number
 mONDAY
+TEST11: #-1.-1k - wrong
+lil
