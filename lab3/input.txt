@@ -1,20 +1,6 @@
-sadasdasd #.11k asdasd
-TeSt1
-Ala #k kota
-MA
-TEST3: #.3k -short string
-Confirm
-TEST4: #.150k - long string
-ABCDEFGH
-TEST5: #.11k - full string range
-abcdefhglko
-TEST6: #.-5k - negative number
-HELLO
-TEST7: #k - without number
-Testing
-TEST8: #.4k - normal
-Boom
-TEST9: #.13kkkkkkk - test syntax
-Hubert
 TEST10: #.k - no number
 mONDAY
+TEST11: #10.1515k - check size
+ALA
+TEST12: #6.1k - check correct space
+BOOM

@@ -4,9 +4,10 @@ import sys
 import re
 
 def my_printf(format_string, param):
-    search_group = re.search("#(\d*)?(\.\d*)?k", format_string)
+    search_group = re.search("#([1-9]\d*)?(\.[1-9]\d*)?k", format_string)
     if search_group is None:
         print(format_string)
+        return
     else:
         swap_param = param.swapcase()
         to_print = search_group.group(0)
@@ -16,7 +17,7 @@ def my_printf(format_string, param):
         if min_length is not None and min_length.isnumeric():
             min_value = int(min_length)
             if min_value > 0:
-                swap_param += ' ' * (min_value - len(swap_param))
+                swap_param = (' ' * min_value) + swap_param
 
         if max_length is not None and max_length.isnumeric():
             max_value = int(max_length[1:])
