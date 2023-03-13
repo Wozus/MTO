@@ -1,3 +1,8 @@
 TEST10: #.k - no number
 TEST11:           ala - check size
 TEST12:       b - check correct space
+TEST1: #1.k - incorrect
+TEST2: #0.0k - incorrect format
+TEST3:  k - normal situation
+TEST4:  LO - test normal
+TEST5:   BR - normal

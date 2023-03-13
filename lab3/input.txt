@@ -4,3 +4,13 @@ TEST11: #10.1515k - check size
 ALA
 TEST12: #6.1k - check correct space
 BOOM
+TEST1: #1.k - incorrect
+Bajka
+TEST2: #0.0k - incorrect format
+test
+TEST3: #1.1k - normal situation
+KOL
+TEST4: #1.2k - test normal
+lol
+TEST5: #2.2k - normal
+brum
