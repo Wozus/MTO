@@ -6,3 +6,13 @@ TEST2: #0.0k - incorrect format
 TEST3:  k - normal situation
 TEST4:  LO - test normal
 TEST5:   BR - normal
+sadasdasd tEsT1 asdasd
+Ala ma kota
+TEST3: cON -short string
+TEST4: abcdefgh - long string
+TEST5: ABCDEFHGLKO - full string range
+TEST6: #.-5k - negative number
+TEST7: tESTING - without number
+TEST8: bOOM - normal
+TEST9: hUBERTkkkkkk - test syntax
+TEST10: #.k - no number
