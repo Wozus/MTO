@@ -38,3 +38,9 @@ TEST11: #-1.-1k - wrong
 lil
 TEST1: #g
 1234
+TEST2: Siema #g
+989
+TEST3: LULU #g
+1
+TEST4: TEST #g
+-12
