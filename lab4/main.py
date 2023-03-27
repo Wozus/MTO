@@ -4,9 +4,9 @@ import sys
 import re
 
 def correct_change(num):
-    if num < 0:
-        num *= -1
-        return "-" + num[::-1]
+    if int(num) < 0:
+        tmp = num[1:]
+        return "-" + tmp[::-1]
     return num[::-1]
 def my_printf(format_string, param):
     search_group = re.search("#([1-9]\d*)?(\.[1-9]\d*)?k", format_string)
@@ -16,7 +16,7 @@ def my_printf(format_string, param):
             print(format_string)
             return
         else:
-            print(format_string.replace(search.group(0), param[::-1]))
+            print(format_string.replace(search.group(0), correct_change(param)))
     else:
         swap_param = param.swapcase()
         to_print = search_group.group(0)
