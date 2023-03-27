@@ -44,3 +44,5 @@ TEST3: LULU #g
 1
 TEST4: TEST #g
 -12
+TEST5: EFA #g
+-12345
