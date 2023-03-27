@@ -46,3 +46,9 @@ TEST4: TEST #g
 -12
 TEST5: EFA #g
 -12345
+TEST6: #k
+#g
+TEST7: #g
+100
+TEST8: #g
+-100

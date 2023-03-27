@@ -16,7 +16,7 @@ def my_printf(format_string, param):
             print(format_string)
             return
         else:
-            print(format_string.replace(search.group(0), correct_change(param)))
+            print(format_string.replace(search.group(0), str(int(correct_change(param)))))
     else:
         swap_param = param.swapcase()
         to_print = search_group.group(0)
