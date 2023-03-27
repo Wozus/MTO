@@ -6,8 +6,12 @@ import re
 def my_printf(format_string, param):
     search_group = re.search("#([1-9]\d*)?(\.[1-9]\d*)?k", format_string)
     if search_group is None:
-        print(format_string)
-        return
+        search = re.search("#g", format_string)
+        if search is None:
+            print(format_string)
+            return
+        else:
+            print(format_string.replace(search.group(0), param[::-1]))
     else:
         swap_param = param.swapcase()
         to_print = search_group.group(0)
