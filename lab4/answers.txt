@@ -1,22 +1,23 @@
-TEST10: #.k - no number
-TEST11:           ala - check size
-TEST12:       b - check correct space
-TEST1: #1.k - incorrect
-TEST2: #0.0k - incorrect format
-TEST3:  k - normal situation
-TEST4:  LO - test normal
-TEST5:   BR - normal
-sadasdasd tEsT1 asdasd
-Ala ma kota
-TEST3: cON -short string
-TEST4: abcdefgh - long string
-TEST5: ABCDEFHGLKO - full string range
-TEST6: #.-5k - negative number
-TEST7: tESTING - without number
-TEST8: bOOM - normal
-TEST9: hUBERTkkkkkk - test syntax
-TEST10: #.k - no number
-TEST11: #-1.-1k - wrong
+To jest przykład PiErWsZy.
+To jest przykład dru.
+Przykład TRZECItrze.
+Przykład odpowiednio DŁUuuGI   I.
+Oraz zdecydowanie zbyt K.
+Stary pr zYk ŁAD wciąż działa.
+Teraz trochę ## kk #..k #-k #--k #-2.k #..k #.-2k.
+Lekki #PRZyKŁaDk.
+#.21.k TEŚ CIK #..k.
+!@#$%^&*()-=.
+Ala ma   KOTA.
+Ala ma KoTa.
+Ala ma    kOt.
+Ala ma .
+Ala ma      .
+Ala ma #0.0k.
+Ala ma kota.
+Ala ma KoTa.
+Ala ma kotaaaaaaaa.
+Ala ma #0.k #0k. #00k          KOTAkotaKOTA #..k #.k.
 TEST1: 4321
 TEST2: Siema 989
 TEST3: LULU 1

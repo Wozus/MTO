@@ -25,13 +25,11 @@ def my_printf(format_string, param):
 
         if max_length is not None and max_length[1:].isnumeric():
             max_value = int(max_length[1:])
-            if max_value > 0:
-                swap_param = swap_param[:min(max_value, len(swap_param))]
+            swap_param = swap_param[:min(max_value, len(swap_param))]
 
         if min_length is not None and min_length.isnumeric():
             min_value = int(min_length)
-            if min_value > 0:
-                swap_param = (' ' * min_value) + swap_param
+            swap_param = (' ' * max(0, min_value - len(swap_param))) + swap_param
 
         print(format_string.replace(to_print, swap_param))
 
