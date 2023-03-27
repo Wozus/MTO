@@ -3,6 +3,11 @@
 import sys
 import re
 
+def correct_change(num):
+    if num < 0:
+        num *= -1
+        return "-" + num[::-1]
+    return num[::-1]
 def my_printf(format_string, param):
     search_group = re.search("#([1-9]\d*)?(\.[1-9]\d*)?k", format_string)
     if search_group is None:
