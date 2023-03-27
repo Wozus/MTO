@@ -36,3 +36,5 @@ TEST10: #.k - no number
 mONDAY
 TEST11: #-1.-1k - wrong
 lil
+TEST1: #g
+1234

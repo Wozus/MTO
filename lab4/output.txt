@@ -17,3 +17,4 @@ TEST8: bOOM - normal
 TEST9: hUBERTkkkkkk - test syntax
 TEST10: #.k - no number
 TEST11: #-1.-1k - wrong
+TEST1: 4321
