@@ -1,43 +1,3 @@
-To jest przykład #k.
-pIeRwSzY
-To jest przykład #.3k.
-DRUGI
-Przykład #.10k.
-trzeciTRZECI
-Przykład odpowiednio #.50k.
-dłuUUgi   i
-Oraz zdecydowanie zbyt #.1k.
-krótki
-Stary #k wciąż działa.
-PR ZyK ład
-Teraz trochę ## kk #..k #-k #--k #-2.k #..k #.-2k.
-niczego
-Lekki ##kk.
-przYkłAd
-#.21.k #.21k #..k.
-teś cik
-#.12k.
-!@#$%^&*()-=123
-Ala ma #6k.
-kota
-Ala ma #3k.
-kOtA
-Ala ma #6.3k.
-KoTa
-Ala ma #.0k.
-kota
-Ala ma #5.0k.
-kota
-Ala ma #0.0k.
-kota
-Ala ma #4k.
-KOTA
-Ala ma #3k.
-kOtA
-Ala ma #6k.
-KOTAAAAAAAA
-Ala ma #0.k #0k. #00k #21k #..k #.k.
-kotaKOTAkota
 TEST1: #g
 1234
 TEST2: Siema #g
@@ -48,8 +8,6 @@ TEST4: TEST #g
 -12
 TEST5: EFA #g
 -12345
-TEST6: #k
-#g
 TEST7: #g
 100
 TEST8: #g

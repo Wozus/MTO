@@ -9,29 +9,12 @@ def correct_change(num):
         return "-" + tmp[::-1]
     return num[::-1]
 def my_printf(format_string, param):
-    search_group = re.search("#([1-9]\d*)?(\.[1-9]\d*)?k", format_string)
-    if search_group is None:
-        search = re.search("#g", format_string)
-        if search is None:
-            print(format_string)
-            return
-        else:
-            print(format_string.replace(search.group(0), str(int(correct_change(param)))))
+    search = re.search("#g", format_string)
+    if search is None:
+        print(format_string)
+        return
     else:
-        swap_param = param.swapcase()
-        to_print = search_group.group(0)
-        min_length = search_group.group(1)
-        max_length = search_group.group(2)
-
-        if max_length is not None and max_length[1:].isnumeric():
-            max_value = int(max_length[1:])
-            swap_param = swap_param[:min(max_value, len(swap_param))]
-
-        if min_length is not None and min_length.isnumeric():
-            min_value = int(min_length)
-            swap_param = (' ' * max(0, min_value - len(swap_param))) + swap_param
-
-        print(format_string.replace(to_print, swap_param))
+        print(format_string.replace(search.group(0), str(int(correct_change(param)))))
 
 data = sys.stdin.readlines()
 
