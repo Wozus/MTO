@@ -16,7 +16,7 @@ def change_for_xg(num):
 
 def my_printf(format_string, param):
     search = re.search("#([1-9]\d*)g", format_string)
-    if search is None or not param.isnumeric():
+    if search is None:
         print(format_string)
         return
     else:
