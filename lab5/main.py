@@ -5,6 +5,8 @@ import re
 
 
 def change_for_xg(num):
+    if num[0] == '-':
+        num = num[1:]
     tmp = [int(dec) for dec in num]
     for j in range(len(tmp)):
         tmp[j] = tmp[j] - 1
@@ -18,7 +20,17 @@ def my_printf(format_string, param):
         print(format_string)
         return
     else:
-        print(format_string.replace(search.group(0), str(change_for_xg(param))))
+        print_max = search.group(1)
+        param_len = len(param)
+        size = max(0, print_max - param_len)
+        flag = param[0] == '-'
+        val = change_for_xg(param)
+
+        if flag:
+            val = val * -1
+
+        val = (' ' * size) + str(val)
+        print(format_string.replace(search.group(0), str(val)))
 
 data = sys.stdin.readlines()
 
