@@ -16,11 +16,11 @@ def change_for_xg(num):
 
 def my_printf(format_string, param):
     search = re.search("#([1-9]\d*)g", format_string)
-    if search is None or param.isnumeric():
+    if search is None or not param.isnumeric():
         print(format_string)
         return
     else:
-        print_max = search.group(1)
+        print_max = int(search.group(1))
         param_len = len(param)
         size = max(0, print_max - param_len)
         flag = param[0] == '-'
