@@ -21,16 +21,15 @@ def my_printf(format_string, param):
         return
     else:
         print_max = int(search.group(1))
-        param_len = len(param)
-        size = max(0, print_max - param_len)
         flag = param[0] == '-'
         val = change_for_xg(param)
-
+        param_len = len(str(val))
+        size = max(0, print_max - param_len)
         if flag:
             val = val * -1
-
+            size -= 1
         val = (' ' * size) + str(val)
-        print(format_string.replace(search.group(0), str(val)))
+        print(format_string.replace(search.group(0), val))
 
 data = sys.stdin.readlines()
 

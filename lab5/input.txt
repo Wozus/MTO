@@ -6,8 +6,8 @@ TEST3: LULU #3g
 1
 TEST4: TEST #3g
 -12
-TEST5: EFA #g
--12345
+TEST5: EFA #2g
+0
 TEST7: #g
 100
 TEST8: #g
