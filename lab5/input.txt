@@ -1,6 +1,6 @@
 TEST1: #2g
 1234
-TEST2: Siema #g
+TEST2: Siema #4g
 989
 TEST3: LULU #g
 1
