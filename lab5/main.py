@@ -12,7 +12,7 @@ def change_for_xg(num):
         tmp[j] = tmp[j] - 1
         if tmp[j] == -1:
             tmp[j] = 9
-    return int(''.join(map(str, tmp)))
+    return ''.join(map(str, tmp))
 
 def my_printf(format_string, param):
     search = re.search("#([1-9]\d*)g", format_string)
@@ -23,10 +23,10 @@ def my_printf(format_string, param):
         print_max = int(search.group(1))
         flag = param[0] == '-'
         val = change_for_xg(param)
-        param_len = len(str(val))
+        param_len = len(val)
         size = max(0, print_max - param_len)
         if flag:
-            val = val * -1
+            val = '-' + val
             size -= 1
         val = (' ' * size) + str(val)
         print(format_string.replace(search.group(0), val))

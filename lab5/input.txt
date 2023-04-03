@@ -8,7 +8,7 @@ TEST4: TEST #3g
 -12
 TEST5: EFA #2g
 0
-TEST7: #g
+TEST7: #2g
 100
 TEST8: #g
 -100
