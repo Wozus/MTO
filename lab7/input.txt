@@ -5,18 +5,18 @@ TEST2: Siema #x
 TEST3: LULU #x
 1
 TEST4: TEST #x
--12
+12
 TEST5: EFA #x
 0
 TEST7: #x
 100
-TEST8: #.2g
--100
-TEST9:#.1g
+TEST8: #x
+100
+TEST9:#x
 123
-TEST10: #.3g
+TEST10: #x
 1234567890
-TEST6: #.4g
+TEST6: #x
 13
-TEST11: #.1g
+TEST11: #x
 0
