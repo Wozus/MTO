@@ -20,3 +20,5 @@ TEST6: #j
 13
 TEST11: #j
 0
+TEST12: #j
+16
