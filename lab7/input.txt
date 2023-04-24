@@ -1,0 +1,22 @@
+TEST1: #.2g
+4378
+TEST2: Siema #.4g
+989
+TEST3: LULU #.3g
+1
+TEST4: TEST #.3g
+-12
+TEST5: EFA #.2g
+0
+TEST7: #.2g
+100
+TEST8: #.2g
+-100
+TEST9:#.1g
+123
+TEST10: #.3g
+1234567890
+TEST6: #.4g
+13
+TEST11: #.1g
+0
