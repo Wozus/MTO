@@ -31,9 +31,7 @@ def my_printf(format_string, param):
         result = change_16(value_16)
         print(format_string.replace(search.group(0), result))
 
-# data = sys.stdin.readlines()
-#
-# for i in range(0, len(data), 2):
-#     my_printf(data[i].rstrip(), data[i + 1].rstrip())
+data = sys.stdin.readlines()
 
-my_printf("#j", 12)
+for i in range(0, len(data), 2):
+    my_printf(data[i].rstrip(), data[i + 1].rstrip())
