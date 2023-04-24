@@ -12,12 +12,11 @@ change = {
     'f': 'l'
 }
 
-
 def change_16(num):
     tmp = [dec for dec in str(num)]
-    for i in range(len(tmp)):
-        if change.get(tmp[i]):
-            tmp[i] = change[tmp[i]]
+    for iter in range(len(tmp)):
+        if change.get(tmp[iter]):
+            tmp[iter] = change[tmp[iter]]
     return ''.join(map(str, tmp))
 
 def my_printf(format_string, param):
