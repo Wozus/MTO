@@ -3,34 +3,33 @@
 import sys
 import re
 
+change = {
+    'a': 'g',
+    'b': 'h',
+    'c': 'i',
+    'd': 'j',
+    'e': 'k',
+    'f': 'l'
+}
 
-def change_for_xg(num):
-    if num[0] == '-':
-        num = num[1:]
-    tmp = [int(dec) for dec in num]
-    for iter in range(len(tmp)):
-        tmp[iter] = (tmp[iter] * 9 + 1) % 10
-    return ''.join(map(str, tmp))
+
+def change_16(num):
+    tmp = [dec for dec in num]
+    for i in range(len(tmp)):
+        if change[tmp[i]]:
+            tmp[i] = change[tmp[i]]
 
 def my_printf(format_string, param):
-    search = re.search("#.([1-9]\d*)g", format_string)
+    search = re.search("#x", format_string)
     if search is None:
         print(format_string)
         return
     else:
-        print_max = int(search.group(1))
-        flag = param[0] == '-'
-        param_len = len(param)
-        if flag:
-            param_len -= 1
-        size = max(0, print_max - param_len)
-        val = ('0' * size) + str(param[1:] if flag else param)
-        val = change_for_xg(val)
-        if flag:
-            val = '-' + val
-        print(format_string.replace(search.group(0), val))
+        value_16 = int(param, 16)
+        change_16(value_16)
+        print(format_string.replace(search.group(0), value_16))
 
 data = sys.stdin.readlines()
 
 for i in range(0, len(data), 2):
-    my_printf(data[i].rstrip(), data[i+1].rstrip())
+    my_printf(data[i].rstrip(), data[i + 1].rstrip())
