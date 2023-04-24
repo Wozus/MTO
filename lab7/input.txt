@@ -1,14 +1,14 @@
-TEST1: #.2g
+TEST1: #x
 4378
-TEST2: Siema #.4g
+TEST2: Siema #x
 989
-TEST3: LULU #.3g
+TEST3: LULU #x
 1
-TEST4: TEST #.3g
+TEST4: TEST #x
 -12
-TEST5: EFA #.2g
+TEST5: EFA #x
 0
-TEST7: #.2g
+TEST7: #x
 100
 TEST8: #.2g
 -100
