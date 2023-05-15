@@ -26,17 +26,22 @@ def my_printf(format_string, param):
         print(format_string)
         return
     else:
-        value = int(param)
-        value_16 = hex(value)
-        value_16_str = str(value_16)[2:]
-        print_max = int(search.group(1))
-        param_len = len(param)
+        if param.isnumeric() and search.group(1).isnumeric() and int(search.group(1)) >= 0:
 
-        size = max(0, print_max - param_len)
-        value_16_str = '0' * size + value_16_str
+            value = int(param)
+            value_16 = hex(value)
+            value_16_str = str(value_16)[2:]
+            print_max = int(search.group(1))
+            param_len = len(param)
 
-        result = change_16(value_16_str)
-        print(format_string.replace(search.group(0), result))
+            size = max(0, print_max - param_len)
+            value_16_str = '0' * size + value_16_str
+
+            result = change_16(value_16_str)
+            print(format_string.replace(search.group(0), result))
+        else:
+            print(format_string)
+            return
 
 data = sys.stdin.readlines()
 
