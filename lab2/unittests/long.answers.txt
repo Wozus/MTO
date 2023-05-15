@@ -1,34 +1,3 @@
-totafsdfsf # fdsfsdf
-totafsd# fdsfsdf fdfjs
-jfldjfldk # wynik
-fjdfsfds # k alal
-djfjkldsjf jjjjjj fsfjdljfdlsj flj ldfj
-gjjkdsljflds jdlkfjdslf
-fjdslkfjdl tttttt
-fjdlsjfkl oooolll
-rwrewrew fjdslkjfdl
-fjdlskjfldjflj rewrewrew
-fjdlskjfldjflj # .Xk rewrewrew
-fjdlskjfldjflj #.X k rewrewrew
-fjdlskjfldjflj #. Xk rewrewrew
-fjdlskjfldjflj # .13k rewrewrew
-totafsdfsf TEST fdsfsdf
-totafsdTES fdsfsdf fdfjs
-jfldjfldk # wynik
-fjdfsfds # k alal
-djfjkldsjf O jjjjjj fsfjdljfdlsj flj ldfj
-gjjkdsljflds S jdlkfjdslf
-fjdslkfjdl 7 tttttt
-fjdlsjfkl 8 oooolll
-rwrewrew 9 fjdslkjfdl
-fjdlskjfldjflj 0 rewrewrew
-fjdfsfds T alal
-djfjkldsjf O jjjjjj fsfjdljfdlsj flj ldfj
-gjjkdsljflds S jdlkfjdslf
-fjdslkfjdl 7 tttttt
-fjdlsjfkl 8 oooolll
-rwrewrew 9 fjdslkjfdl
-fjdlskjfldjflj 0 rewrewrew
 totafsdfsf TESTFJDSLKFJDSLJFLDSJFLDSKJFDSLKFJDSKLJFDSLJFJDSKLF fdsfsdf
 totafsdTESFJDLSKJFKDLSJFKLDSFJDSLJFDSLKJFLSDJ fdsfsdf fdfjs
 jfldjfldk # wynik
@@ -42,17 +11,3 @@ fjdlskjfldjflj 43248329482390840239840239840239840329840238402384023840238402384
 fjdlsjfkl fjsdlkjfalksf oooolll
 rwrewrew aaaaaaaaaaaaaaa fjdslkjfdl
 fjdlskjfldjflj 43248329482 rewrewrew
-totafsdfsf #l fdsfsdf
-totafsd#l fdsfsdf fdfjs
-jfldjfldk # wynik
-fjdfsfds # k alal
-djfjkldsjf #l jjjjjj fsfjdljfdlsj flj ldfj
-gjjkdsljflds #l jdlkfjdslf
-fjdslkfjdl #l tttttt
-fjdlsjfkl #l oooolll
-rwrewrew #l fjdslkjfdl
-fjdlskjfldjflj #l rewrewrew
-fjdlskjfldjflj # .Xk rewrewrew
-fjdlskjfldjflj #.X k rewrewrew
-fjdlskjfldjflj #. Xk rewrewrew
-fjdlskjfldjflj #. X k rewrewrew
