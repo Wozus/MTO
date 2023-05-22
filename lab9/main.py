@@ -17,7 +17,6 @@ change = {
 }
 
 def change_before(num):
-    num = str(num).split('.')[0]
     tmp = [dec for dec in str(num)]
     for iter in range(len(tmp)):
         if change.get(tmp[iter]):
@@ -25,7 +24,6 @@ def change_before(num):
     return ''.join(map(str, tmp))
 
 def change_after(num):
-    num = str(num).split('.')[1]
     tmp = [dec for dec in str(num)]
     for iter in range(len(tmp)):
         tmp[iter] = str((int(tmp[iter]) + 5) % 10)
@@ -46,9 +44,9 @@ def my_printf(format_string, param):
     format_value = int(search.group(1))
     round_value = round(param_value, ndigits=format_value)
 
-    round_value = correct_length(round_value, format_value)
-    after_first = change_before(round_value)
-    after_second = change_after(round_value)
+    round_value = correct_length(round_value, format_value).split('.')
+    after_first = change_before(round_value[0])
+    after_second = change_after(round_value[1])
 
     print(format_string.replace(search.group(0), after_first + '.' + after_second))
 
