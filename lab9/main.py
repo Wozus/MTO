@@ -35,20 +35,24 @@ def correct_length(value, length):
     return str(value) + ('0' * length_c)
 
 def my_printf(format_string, param):
-    search = re.search("#.([1-9]\d*)h", format_string)
+    search = re.search("#.([0-9]\d*)h", format_string)
     if search is None:
         print(format_string)
         return
-
-    param_value = float(param)
+    if param.find('.') == -1:
+        param_value = 0.0
+    else:
+        param_value = float(param)
     format_value = int(search.group(1))
     round_value = round(param_value, ndigits=format_value)
 
     round_value = correct_length(round_value, format_value).split('.')
     after_first = change_before(round_value[0])
-    after_second = change_after(round_value[1])
-
-    print(format_string.replace(search.group(0), after_first + '.' + after_second))
+    if format_value == 0:
+        print(format_string.replace(search.group(0), after_first))
+    else:
+        after_second = change_after(round_value[1])
+        print(format_string.replace(search.group(0), after_first + '.' + after_second))
 
 
 
