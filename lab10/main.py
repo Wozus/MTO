@@ -23,7 +23,7 @@ def my_printf(format_string, param):
     if final % 2 == 0:
         print(format_string.replace(search.group(0), str(final)))
     else:
-        print(format_string.replace(search.group(0), str(hex(final)[2:])))
+        print(format_string.replace(search.group(0), str(hex(final)).replace('0x', '')))
 
 data = sys.stdin.readlines()
 
