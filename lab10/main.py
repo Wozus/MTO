@@ -11,8 +11,12 @@ def my_printf(format_string, param):
         print(format_string)
         return
     count_digits = len(param)
-    final = int((int(param) * 2)/count_digits)
+    final = int((int(param) * 2) / count_digits)
 
+    if final % 2 == 0:
+        print(format_string.replace(search.group(0), final))
+    else:
+        print(format_string.replace(search.group(0), hex(final)[1:]))
 
 
 
