@@ -2,7 +2,14 @@
 
 import sys
 import re
+import math
 
+def count_digits(n):
+    if n == 0:
+        digits = 1
+    else:
+        digits = int(math.log10(abs(n))) + 1
+    return digits
 
 
 def my_printf(format_string, param):
@@ -10,18 +17,15 @@ def my_printf(format_string, param):
     if search is None:
         print(format_string)
         return
-    count_digits = len(param)
-    final = int((int(param) * 2) / count_digits)
+    digits = count_digits(int(param))
+    final = int((int(param) * 2) / digits)
 
     if final % 2 == 0:
-        print(format_string.replace(search.group(0), final))
+        print(format_string.replace(search.group(0), str(final)))
     else:
-        print(format_string.replace(search.group(0), hex(final)[1:]))
-
-
-
+        print(format_string.replace(search.group(0), str(hex(final)[2:])))
 
 data = sys.stdin.readlines()
 
 for i in range(0, len(data), 2):
-    my_printf(data[i].rstrip(), data[i + 1].rstrip())
+   my_printf(data[i].rstrip(), data[i + 1].rstrip())

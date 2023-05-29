@@ -1,64 +1,16 @@
-fjdslkfjdl #.3h tttttt
-712.050
-fjdlsjfkl # .3h oooolll
-81
-rwrewrew # fjdslkjfdl
-9
-fjdlskjfldjflj #kh rewrewrew
-12
-fjdlskjfldjflj #xd rewrewrew
-23
-fjdlskjfldjflj #123 rewrewrew
-23
-fjdlskjfldjflj #456 rewrewrew
-6
-fjdlskjfldjflj #d rewrewrew
-2
-fjdslkfjdl #.6h tttttt
-712312412.124588
-fjdlsjfkl #.6h oooolll
-812346743.1235785
-rwrewrew #.6h fjdslkjfdl
-91242154.125263
-fjdlskjfldjflj #.6h rewrewrew
-12312351.1426787
-fjdlskjfldjflj #.3h rewrewrew
-23523523.99999
-fjdlskjfldjflj #.2h rewrewrew
-234532345.0796
-fjdlskjfldjflj #.1h rewrewrew
-675432.23464384758
-fjdlskjfldjflj #.3h rewrewrew
-23453342.79889678564
-fjdslkfjdl #.3h tttttt
-712.123
-fjdlsjfkl #.3h oooolll
-81.999
-rwrewrew #.5h fjdslkjfdl
-9.4356435
-fjdlskjfldjflj #.5h rewrewrew
-12.1
-fjdlskjfldjflj #.5h rewrewrew
-23.0
-fjdlskjfldjflj #.5h rewrewrew
-23.1235
-fjdlskjfldjflj #.5h rewrewrew
-6.8679
-fjdlskjfldjflj #.5h rewrewrew
-2.1235
-fjdslkfjdl # .13h tttttt
-7
-fjdlsjfkl #. 13h oooolll
-8
-rwrewrew #.-=23413h fjdslkjfdl
-9
-fjdlskjfldjflj #.13 h rewrewrew
-0
-fjdlskjfldjflj # . 1 3 h rewrewrew
-0
-fjdlskjfldjflj #.X h rewrewrew
-0
-fjdlskjfldjflj #. Xh rewrewrew
-0
-fjdlskjfldjflj # .Xh rewrewrew
-0
+fjdslkfjdl #a tttttt
+712312412
+fjdlsjfkl #a oooolll
+812346743
+rwrewrew #a fjdslkjfdl
+91242154
+fjdlskjfldjflj #a rewrewrew
+12312357
+fjdlskjfldjflj #a rewrewrew
+23523523
+fjdlskjfldjflj #a rewrewrew
+234532345
+fjdlskjfldjflj #a rewrewrew
+675432
+fjdlskjfldjflj #a rewrewrew
+23453342

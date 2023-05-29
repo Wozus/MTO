@@ -1,64 +1,48 @@
-fjdslkfjdl # tttttt
-712
-fjdlsjfkl # .3h oooolll
-81
-rwrewrew # fjdslkjfdl
-9
-fjdlskjfldjflj #kh rewrewrew
-12
-fjdlskjfldjflj #xd rewrewrew
-23
-fjdlskjfldjflj #123 rewrewrew
-23
-fjdlskjfldjflj #456 rewrewrew
-6
-fjdlskjfldjflj #d rewrewrew
+fjdslkfjdl #a tttttt
+0
+fjdlsjfkl #a oooolll
+1
+rwrewrew #a fjdslkjfdl
 2
-fjdslkfjdl #.6h tttttt
-712312412.124588
-fjdlsjfkl #.6h oooolll
-81234536743.1235785
-rwrewrew #.6h fjdslkjfdl
-91242135254.125263
-fjdlskjfldjflj #.6h rewrewrew
-123123452351.1426787
-fjdlskjfldjflj #.3h rewrewrew
-23523534523.99999
-fjdlskjfldjflj #.2h rewrewrew
-23453245345.0796
-fjdlskjfldjflj #.1h rewrewrew
-675432.23464384758
-fjdlskjfldjflj #.3h rewrewrew
-23456457345342.79889678564
-fjdslkfjdl #.3h tttttt
-712.123
-fjdlsjfkl #.3h oooolll
-81.999
-rwrewrew #.5h fjdslkjfdl
-9.4356435
-fjdlskjfldjflj #.5h rewrewrew
-12.1
-fjdlskjfldjflj #.5h rewrewrew
-23.0
-fjdlskjfldjflj #.5h rewrewrew
-23.1235
-fjdlskjfldjflj #.5h rewrewrew
-6.8679
-fjdlskjfldjflj #.5h rewrewrew
-2.1235
-fjdslkfjdl # .13h tttttt
+fjdlskjfldjflj #a rewrewrew
+3
+fjdlskjfldjflj #a rewrewrew
+4
+fjdlskjfldjflj #a rewrewrew
+5
+fjdlskjfldjflj #a rewrewrew
+6
+fjdlskjfldjflj #a rewrewrew
 7
-fjdlsjfkl #. 13h oooolll
+fjdslkfjdl #a tttttt
 8
-rwrewrew #.-=23413h fjdslkjfdl
+fjdlsjfkl #a oooolll
 9
-fjdlskjfldjflj #.13 h rewrewrew
-0
-fjdlskjfldjflj # . 1 3 h rewrewrew
-0
-fjdlskjfldjflj #.X h rewrewrew
-0
-fjdlskjfldjflj #. Xh rewrewrew
-0
-fjdlskjfldjflj # .Xh rewrewrew
-0
+rwrewrew #a fjdslkjfdl
+10
+fjdlskjfldjflj #a rewrewrew
+11
+fjdlskjfldjflj #a rewrewrew
+12
+fjdlskjfldjflj #a rewrewrew
+13
+fjdlskjfldjflj #a rewrewrew
+14
+fjdlskjfldjflj #a rewrewrew
+15
+fjdslkfjdl #a tttttt
+16
+fjdlsjfkl #a oooolll
+17
+rwrewrew #a fjdslkjfdl
+18
+fjdlskjfldjflj #a rewrewrew
+19
+fjdlskjfldjflj #a rewrewrew
+20
+fjdlskjfldjflj #a rewrewrew
+30
+fjdlskjfldjflj #a rewrewrew
+54
+fjdlskjfldjflj #a rewrewrew
+68
