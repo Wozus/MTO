@@ -22,13 +22,14 @@ def my_printf(format_string, param):
         print(format_string)
         return
     num_bin = bin(int(param))
+    num_bin = num_bin.replace('0b', '')
     num_bin = num_bin.lstrip('0')
     res = change_num(num_bin)
-    print(res)
+    print(format_string.replace(search.group(0), res))
 
-# data = sys.stdin.readlines()
-#
-# for i in range(0, len(data), 2):
-#    my_printf(data[i].rstrip(), data[i + 1].rstrip())
+data = sys.stdin.readlines()
+
+for i in range(0, len(data), 2):
+   my_printf(data[i].rstrip(), data[i + 1].rstrip())
 
 my_printf("#b", "123123123")
