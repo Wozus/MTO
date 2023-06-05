@@ -1,35 +1,3 @@
-fjdslkfjdl # tttttt
-712
-fjdlsjfkl # .3a oooolll
-81
-rwrewrew # fjdslkjfdl
-9
-fjdlskjfldjflj #ka rewrewrew
-12
-fjdlskjfldjflj #xa rewrewrew
-23
-fjdlskjfldjflj #123a rewrewrew
-23
-fjdlskjfldjflj #456a rewrewrew
-6
-fjdlskjfldjflj #da rewrewrew
-2
-fjdslkfjdl #a tttttt
-712312412
-fjdlsjfkl #a oooolll
-812346743
-rwrewrew #a fjdslkjfdl
-91242154
-fjdlskjfldjflj #a rewrewrew
-12312357
-fjdlskjfldjflj #a rewrewrew
-23523523
-fjdlskjfldjflj #a rewrewrew
-234532345
-fjdlskjfldjflj #a rewrewrew
-675432
-fjdlskjfldjflj #a rewrewrew
-23453342
 #a
 -1000
 #a
@@ -4032,19 +4000,3 @@ fjdlskjfldjflj #a rewrewrew
 999
 #a
 1000
-fjdslkfjdl # .13a tttttt
-7
-fjdlsjfkl #. 13a oooolll
-8
-rwrewrew #.-=23413a fjdslkjfdl
-9
-fjdlskjfldjflj #.13 a rewrewrew
-0
-fjdlskjfldjflj # . 1 3 a rewrewrew
-0
-fjdlskjfldjflj #.X a rewrewrew
-0
-fjdlskjfldjflj #. Xa rewrewrew
-0
-fjdlskjfldjflj # .Xa rewrewrew
-0
