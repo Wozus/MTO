@@ -3,7 +3,10 @@
 import sys
 import re
 
-def count_digits(n):
+data = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j']
+
+
+def change_num(number):
     if n == 0:
         digits = 1
     else:
@@ -12,17 +15,11 @@ def count_digits(n):
 
 
 def my_printf(format_string, param):
-    search = re.search("#a", format_string)
+    search = re.search("#b", format_string)
     if search is None:
         print(format_string)
         return
-    digits = count_digits(int(param))
-    final = int((int(param) * 2) / digits)
 
-    if final % 2 == 0:
-        print(format_string.replace(search.group(0), str(final)))
-    else:
-        print(format_string.replace(search.group(0), str(hex(final)).replace('0x', '')))
 
 data = sys.stdin.readlines()
 
